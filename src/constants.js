@@ -101,13 +101,17 @@ export const experiences = [
       "HTML5",
       "CSS3",
       "JavaScript",
+      "TypeScript",
       "Angular 19",
       "Java",
       "Spring Boot",
       "Bootstrap",
-      "Tailwind CSS",
+      "Postman",
+      "Docker",
+      "GIT",
+      "Git Hub",
       "REST API",
-      "SQL"
+      "SQL",
     ],
   }
 ];
@@ -118,8 +122,8 @@ export const education = [
     img: mesLogo,
     school: "Modern Education Society College of Engineering, Pune",
     date: "Jul 2019 - May 2023",
-    grade: "CGPA/Percentage: Mention if available",
-    desc: "I completed my Bachelor's degree (B.E.) in Computer Engineering from MESCOE, Pune. During this time, I developed a strong foundation in programming, data structures, and full stack development. I also worked on major academic projects including a Movie Recommendation System using Spring MVC and a Psychometric Test App.",
+    grade: "8.23 (CGPA)",
+    desc: "I completed my Bachelor's degree (B.E.) in Computer Engineering from MESCOE, Pune. During this time, I developed a strong foundation in programming, data structures, and full stack development. I also worked on major academic projects including a Movie Recommendation System using Spring MVC .",
     degree: "Bachelor of Engineering - B.E. (Computer Engineering)",
   },
   {
@@ -128,7 +132,7 @@ export const education = [
     school: "Shri Chhatrapati Shivaji Mahavidyalaya, Shrigonda",
     date: "Jun 2018 - Apr 2019",
     grade: "60%",
-    desc: "I completed my Higher Secondary (HSC) education in the Science stream with a focus on core subjects like Physics, Chemistry, and Mathematics. This laid the academic foundation for my technical and engineering education.",
+    desc: "I completed my Higher Secondary (HSC) education in the Science stream with a focus on core subjects like Physics, Biology, Chemistry, and Mathematics. This laid the academic foundation for my technical and engineering education.",
     degree: "HSC (Science) - Maharashtra State Board",
   },
   {
@@ -148,8 +152,8 @@ export const projects = [
     description:
       "An AI-powered interview practice tool built with Angular and Google Gemini API. Users can simulate real interview sessions by speaking into their mic — the app converts voice to text using `SpeechRecognition` and sends it to Gemini for a smart AI-driven response. Ideal for freshers and experienced professionals preparing for technical interviews.",
     image: aiCoachLogo,
-    tags: ["Angular", "Google Gemini API", "SpeechRecognition", "HTML5", "JavaScript","TypeScript"],
-    github: "https://github.com/Rutik2401/ai-interview-coach", // update if public
+    tags: ["Angular", "Google Gemini API", "SpeechRecognition", "HTML5", "CSS3","JavaScript", "TypeScript"],
+    github: "https://github.com/Rutik2401/ai-interview-coach", 
     webapp: "https://ai-interview-coach-zeta.vercel.app/",
   },
   {
@@ -159,7 +163,7 @@ export const projects = [
       "A Java + Spring MVC based movie recommendation platform that suggests movies based on user ratings and preferences. Features include personalized suggestions, secure login/logout, MVC architecture for better flow, and a responsive UI that ensures accessibility across devices.",
     image: movieSystemLogo,
     tags: ["HTML5", "CSS3", "JavaScript", "Java", "Spring MVC", "Bootstrap", "JDBC"],
-    github: "https://github.com/Rutik2401/movie-recommendation-system",
+    github: "https://github.com/Rutik2401/Movie-Recommendation-System-Web",
     webapp: "https://primetechies.in",
   },
   {
@@ -169,7 +173,7 @@ export const projects = [
       "A responsive React-based web app that lets users explore popular, top-rated, and upcoming movies using data from the TMDB API. Features include real-time search, navigation using React Router, and optimized load times using React Hooks and Axios.",
     image: cinemaExplorerLogo,
     tags: ["React JS", "Axios", "React Hooks", "HTML5", "CSS3", "Bootstrap 5.2", "JavaScript"],
-    github: "https://github.com/Rutik2401/cinema-explorer",
+    github: "https://github.com/Rutik2401/Nimap-Task",
     webapp: "https://moviebyprime.netlify.app/",
   },
 
